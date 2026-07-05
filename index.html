@@ -3,339 +3,329 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio Sapri</title>
-    <link href="templatemo-3d-coverflow.css" rel="stylesheet">
-<!--
-
-TemplateMo 595 3d coverflow
-
-https://templatemo.com/tm-595-3d-coverflow
-
--->
+    <title>Umbul Ponggok</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="templatemo-neural-style.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Epic Neural Background -->
+    <div class="neural-background"></div>
+    
+    <!-- Floating Geometric Shapes -->
+    <div class="geometric-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- Neural Network Lines -->
+    <div class="neural-lines">
+        <div class="neural-line"></div>
+        <div class="neural-line"></div>
+        <div class="neural-line"></div>
+    </div>
+
     <!-- Header -->
-    <header class="header" id="header">
-        <a href="#home" class="logo-container">
-            <div class="logo">
-			<img src="images/logo.jpeg" width="50px" height="50px">
-			<!--
-                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <header class="glass">
+        <nav>
+            <a href="" class="logo">
+                <img src="images/LOGO-remove.png" width="60px" height="60px">
+                <svg src="images/LOGO-remove.png" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg">
                     <defs>
-                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-                            <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#e0a3ff"/>
+                            <stop offset="50%" style="stop-color:#ff69b4"/>
+                            <stop offset="100%" style="stop-color:#9470dd"/>
                         </linearGradient>
                     </defs>
-                    <rect x="10" y="25" width="15" height="50" fill="url(#grad1)" transform="rotate(-15 17.5 50)" />
-                    <rect x="35" y="15" width="15" height="70" fill="url(#grad1)" />
-                    <rect x="60" y="25" width="15" height="50" fill="url(#grad1)" transform="rotate(15 67.5 50)" />
-                    <circle cx="50" cy="50" r="45" fill="none" stroke="url(#grad1)" stroke-width="2" opacity="0.5" />
+                    <circle cx="50" cy="30" r="8" fill="url(#logoGradient)" opacity="0.8">
+                        <animate attributeName="opacity" values="0.8;1;0.8" dur="1.2s" repeatCount="indefinite"/>
+                    </circle>
+                    <circle cx="30" cy="60" r="6" fill="url(#logoGradient)" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+                    </circle>
+                    <circle cx="70" cy="65" r="7" fill="url(#logoGradient)" opacity="0.7">
+                        <animate attributeName="opacity" values="0.7;1;0.7" dur="2.3s" repeatCount="indefinite"/>
+                    </circle>
+                    <line x1="50" y1="30" x2="30" y2="60" stroke="url(#logoGradient)" stroke-width="2" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+                    </line>
+                    <line x1="50" y1="30" x2="70" y2="65" stroke="url(#logoGradient)" stroke-width="2" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+                    </line>
+                    <line x1="30" y1="60" x2="70" y2="65" stroke="url(#logoGradient)" stroke-width="2" opacity="0.6">
+                        <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+                    </line>
                 </svg>
-				-->
+                UMBUL PONGGOK
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Profil</a></li>
+                <li><a href="#showcase">Fasilitas</a></li>
+                <li><a href="#timeline">Sejarah</a></li>
+                <li><a href="#contact">Hubungi</a></li>
+                <li><a href="https://maps.app.goo.gl/sLMeZpnQLRPBGxX88" target="_blank" class="external-link">Maps</a></li>
+</ul>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
             </div>
-            <div class="logo-text">WEB GALERY AAS</div>
-        </a>
-        
-        <nav class="main-menu" id="mainMenu">
-            <a href="#home" class="menu-item active">Home</a>
-            <a href="#about" class="menu-item">About</a>
-            <a href="#contact" class="menu-item">Contact</a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="menu-item external">GitHub</a>
         </nav>
-        
-        <div class="menu-toggle" id="menuToggle">
-            <span></span>
-            <span></span>
-            <span></span>
+        <div class="mobile-nav">
+            <a href="#features">Profil</a>
+            <a href="#showcase">Fasilitas</a>
+            <a href="#timeline">Sejarah</a>
+            <a href="#contact">Hubungi</a>
+            <a href="https://maps.app.goo.gl/sLMeZpnQLRPBGxX88" target="_blank" class="external-link">Maps</a>
         </div>
     </header>
 
-    <!-- Home Section -->
-    <section id="home" class="section">
-        <div class="coverflow-wrapper">
-            <div class="info">
-                <h2 id="current-title">Mountain Landscape</h2>
-                <p id="current-description">Majestic peaks covered in snow during golden hour</p>
+    <!-- Section 1: Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-subtitle">Welcome to UMBUL PONGGOK</div>
+            <h1>UMBUL PONGGOK</h1>
+            
+            <div class="hero-description">
+                <p>Nikmati kesegaran mata air alami yang jernih, 
+                    abadikan momen dengan spot foto bawah air yang ikonik, 
+                    dan rasakan pengalaman wisata yang tak terlupakan bersama keluarga maupun teman.</p>
             </div>
 
-            <div class="coverflow-container" tabindex="0">
-                <div class="coverflow" id="coverflow">
-                    <div class="coverflow-item" data-index="0">
-                        <div class="cover image-loading">
-                            <img src="images/mountain-landscape.jpg" alt="Mountain Landscape" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
-                    <div class="coverflow-item" data-index="1">
-                        <div class="cover image-loading">
-                            <img src="images/forest-path.jpg" alt="Forest Path" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
-                    <div class="coverflow-item" data-index="2">
-                        <div class="cover image-loading">
-                            <img src="images/serene-water-mirroring.jpg" alt="Lake Reflection" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
-                    <div class="coverflow-item" data-index="3">
-                        <div class="cover image-loading">
-                            <img src="images/ocean-sunset-golden-hour.jpg" alt="Ocean Sunset" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
-                    <div class="coverflow-item" data-index="4">
-                        <div class="cover image-loading">
-                            <img src="images/rolling-sand-dunes.jpg" alt="Desert Dunes" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
-                    <div class="coverflow-item" data-index="5">
-                        <div class="cover image-loading">
-                            <img src="images/starry-night.jpg" alt="Starry Night" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
-                    <div class="coverflow-item" data-index="6">
-                        <div class="cover image-loading">
-                            <img src="images/cascading-waterfall.jpg" alt="Waterfall" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-number">100%</span>
+                    <span class="hero-stat-label">Air Murni</span>
                 </div>
-
-                <button class="nav-button prev" onclick="navigate(-1)">‹</button>
-                <button class="nav-button next" onclick="navigate(1)">›</button>
-
-                <div class="dots-container" id="dots"></div>
-                
-                <!-- Play/Pause Button -->
-                <button class="play-pause-button" id="playPauseBtn" onclick="toggleAutoplay()">
-                    <span class="play-icon">▶</span>
-                    <span class="pause-icon" style="display: none;">❚❚</span>
-                </button>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">0%</span>
+                    <span class="hero-stat-label">Kaporit</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">35%</span>
+                    <span class="hero-stat-label">Ikan</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">25%</span>
+                    <span class="hero-stat-label">Properti Bawah Air</span>
+                </div>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="#features" class="cta-button">Profil</a>
+                <a href="#showcase" class="cta-button secondary">Fasilitas</a>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="about-content">
-            <div class="about-header">
-                <h2>Selamat Datang Rumah</h2>
-                <p>Galery ITB AAS merupakan sebuah tempat yang berisi tentang dokumentasi karya dan peristiwa di kampus</p>
-            </div>
-            
-            <div class="about-main">
-                <div class="about-visual">
-                    <div class="showcase-display">
-                        <div class="showcase-main">
-                            <div class="corner-decoration top-left"></div>
-                            <div class="corner-decoration bottom-right"></div>
-							<img src="images/cascading-waterfall.jpg" width="120px" height="130px">
-                            <!--
-                            <div class="showcase-logo">
-                                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="10" y="25" width="15" height="50" fill="white" transform="rotate(-15 17.5 50)" opacity="0.9" />
-                                    <rect x="35" y="15" width="15" height="70" fill="white" />
-                                    <rect x="60" y="25" width="15" height="50" fill="white" transform="rotate(15 67.5 50)" opacity="0.9" />
-                                    <circle cx="50" cy="50" r="45" fill="none" stroke="white" stroke-width="2" opacity="0.3" />
-                                </svg>
-                            </div>
-							-->
-                            
-                            <h3 class="showcase-title">Ini Saya</h3>
-                            <p class="showcase-subtitle">Semua Yang Hidup Pasti Akan Bernafas</p>
-                            
-                            <div class="showcase-badges">
-                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer" class="badge">HTML5</a>
-                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer" class="badge">CSS3</a>
-                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" class="badge">JavaScript</a>
-                                <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design" target="_blank" rel="noopener noreferrer" class="badge">Responsive</a>
-                            </div>
-                        </div>
+    <!-- Section 2: Diagonal Features -->
+    <section class="features" id="features">
+        <div class="features-container">
+            <h2 class="section-title">PROFIL</h2>
+            <div class="diagonal-grid">
+                <div class="feature-row">
+                    <div class="feature-content glass">
+                        <div class="feature-icon">📖</div>
+                        <h3>KISAH</h3>
+                        <p>Umbul Ponggok merupakan sebuah sumber mata air alami yang terletak di Desa Ponggok, Kecamatan Polanharjo, Kabupaten Klaten, Jawa Tengah. 
+                            Tempat ini telah ada sejak zaman kolonial Belanda. Pada masa itu, 
+                            Umbul Ponggok dimanfaatkan sebagai penampungan air untuk mendukung irigasi perkebunan tebu dan operasional pabrik gula di sekitar wilayah tersebut.</p>
                     </div>
+                    <div class="feature-visual glass"></div>
                 </div>
                 
-                <div class="about-info">
-                    <h3>Welcome Back to My chanel</h3>
-                    <p>Tempat dimana penderitaan dan rasa sakit itu bermuncul.</p>
-                    <p>Jika harimu berat tenang ada gajah yang lebih berat</p>
-                    
-                    <ul class="feature-list">
-                        <li>Smooth 3D transitions with hardware acceleration</li>
-                        <li>Touch-enabled navigation for mobile devices</li>
-                        <li>Customizable autoplay and timing controls</li>
-                        <li>Keyboard navigation support</li>
-                        <li>Reflection effects for added depth</li>
-                    </ul>
-                    
-                    <a href="#contact" class="cta-button">
-                        Start Your Project
-                        <svg viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M5 12h14m-7-7l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none"/>
-                        </svg>
-                    </a>
+                <div class="feature-row">
+                    <div class="feature-content glass">
+                        <div class="feature-icon">🥚</div>
+                        <h3>ASAL USUL</h3>
+                        <p>Nama "Ponggok" diyakini memiliki makna yang berkaitan dengan pusat atau sumber air yang melimpah. 
+                            Sejak dahulu, Umbul Ponggok dimanfaatkan masyarakat sebagai tempat mandi, mencuci, sumber irigasi, budidaya ikan, bahkan dipercaya memiliki manfaat untuk penyembuhan hewan ternak. 
+                            Di sekitar kawasan tersebut juga pernah ditemukan benda-benda arkeologi yang diperkirakan berasal dari masa Mataram Kuno atau Majapahit, 
+                            menunjukkan bahwa daerah ini telah lama memiliki nilai sejarah.</p>
+                    </div>
+                    <div class="feature-visual glass"></div>
                 </div>
-            </div>
-            
-            <div class="stats-section">
-                <div class="stat-item">
-                    <div class="stat-number">10fps</div>
-                    <div class="stat-label">Smooth Performance</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">100%</div>
-                    <div class="stat-label">Responsive Design</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">3D</div>
-                    <div class="stat-label">Visual Effects</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">∞</div>
-                    <div class="stat-label">Customization</div>
+                
+                <div class="feature-row">
+                    <div class="feature-content glass">
+                        <div class="feature-icon">🤿</div>
+                        <h3>Destinasi</h3>
+                        <p>Daya tarik utamanya adalah aktivitas snorkeling dan diving di air tawar, serta spot foto bawah air yang unik menggunakan berbagai properti seperti sepeda, sepeda motor, meja, kursi, hingga televisi yang ditempatkan di dasar kolam.
+                            Selain itu, pengunjung dapat berenang bersama ikan-ikan air tawar, bersantai di gazebo dan taman, menikmati kuliner di sekitar lokasi, serta memanfaatkan fasilitas penyewaan perlengkapan snorkeling, kamera bawah air, dan jasa fotografer profesional. 
+                            Kombinasi keindahan alam, fasilitas yang lengkap, serta konsep wisata yang kreatif menjadikan Umbul Ponggok sebagai destinasi yang menarik bagi wisatawan dari berbagai daerah.</p>
+                    </div>
+                    <div class="feature-visual glass"></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="contact-content">
-            <div class="contact-header">
-                <h2>Awas Skandal</h2>
-                <p>Have a project in mind? Let's create something amazing together.</p>
-				<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@mumun_rajinsholat/video/7654747749648272647" data-video-id="7654747749648272647" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@mumun_rajinsholat" href="https://www.tiktok.com/@mumun_rajinsholat?refer=embed">@mumun_rajinsholat</a> <p></p> <a target="_blank" title="♬ suara asli  - dj.rini.amora" href="https://www.tiktok.com/music/suara-asli-djriniamora-7638089555384191745?refer=embed">♬ suara asli  - dj.rini.amora</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    <!-- Section 3: Hexagonal Showcase -->
+    <section class="showcase" id="showcase">
+        <h2 class="section-title">Fasilitas</h2>
+        <div class="hexagon-container">
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🏊</div>
+                    <h4>Kolam</h4>
+                    <p>Kolam mata air alami dengan air yang jernih dan segar.</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🚻</div>
+                    <h4>Toilet</h4>
+                    <p>Toilet umum yang mudah diakses.</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🎫</div>
+                    <h4>Loket</h4>
+                    <p>Loket tiket dan pusat informasi bagi pengunjung.</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🚿 </div>
+                    <h4>Kamar Bilas </h4>
+                    <p>Kamar bilas dan ruang ganti yang bersih dan nyaman.</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🚗 </div>
+                    <h4>Area Parkir </h4>
+                    <p>Area parkir yang cukup luas untuk sepeda motor, mobil, dan bus wisata.</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🕌 </div>
+                    <h4>Mushola </h4>
+                    <p>Tempat ibadah yang nyaman untuk pengunjung.</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon">🍽️  </div>
+                    <h4>Warung Makan </h4>
+                    <p>Warung makan dan kios yang menyediakan makanan, minuman, serta oleh-oleh.</p>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- Section 4: Timeline -->
+    <section class="timeline" id="timeline">
+        <h2 class="section-title">SEJARAH</h2>
+        <div class="timeline-container">
+            <div class="timeline-line"></div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content glass">
+                    <div class="timeline-year">2009</div>
+                    <!--<h4>Genesis Protocol</h4>-->
+                    <p>Pemerintah Desa Ponggok mulai mengembangkan Umbul Ponggok sebagai objek wisata. 
+                        Pengelolaan dilakukan melalui BUMDes Tirta Mandiri dengan tujuan memanfaatkan potensi mata air untuk meningkatkan perekonomian masyarakat.</p>
+                </div>
+                <div class="timeline-dot"></div>
             </div>
             
-            <div class="contact-container">
-                <div class="contact-info-section">
-                    <h3>Let's Connect</h3>
-                    <p>We're here to help bring your vision to life. Whether you need a stunning gallery, a complete website redesign, or custom development work, we'd love to hear from you.</p>
-                    
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <svg viewBox="0 0 24 24">
-                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                                </svg>
-                            </div>
-                            <div class="contact-text">
-                                <h4>Email</h4>
-                                <p>hello@3dcoverflow.com</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <svg viewBox="0 0 24 24">
-                                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-                                </svg>
-                            </div>
-                            <div class="contact-text">
-                                <h4>Phone</h4>
-                                <p>+1 (555) 123-4567</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <svg viewBox="0 0 24 24">
-                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                                </svg>
-                            </div>
-                            <div class="contact-text">
-                                <h4>Address</h4>
-                                <p>123 Design Street, San Francisco, CA 94102</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <svg viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                                </svg>
-                            </div>
-                            <div class="contact-text">
-                                <h4>Business Hours</h4>
-                                <p>Monday - Friday: 9:00 AM - 6:00 PM PST</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="social-links">
-                        <h4>Follow Us</h4>
-                        <div class="social-buttons">
-                            <a href="#" class="social-btn" title="Facebook">
-                                <svg viewBox="0 0 24 24">
-                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                                </svg>
-                            </a>
-                            <a href="#" class="social-btn" title="Twitter">
-                                <svg viewBox="0 0 24 24">
-                                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
-                                </svg>
-                            </a>
-                            <a href="#" class="social-btn" title="LinkedIn">
-                                <svg viewBox="0 0 24 24">
-                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                                </svg>
-                            </a>
-                            <a href="#" class="social-btn" title="Instagram">
-                                <svg viewBox="0 0 24 24">
-                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1112.324 0 6.162 6.162 0 01-12.324 0zM12 16a4 4 0 110-8 4 4 0 010 8zm4.965-10.405a1.44 1.44 0 112.881.001 1.44 1.44 0 01-2.881-.001z"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
+            <div class="timeline-item">
+                <div class="timeline-content glass">
+                    <div class="timeline-year">2015</div>
+                    <!--<h4>Matrix Integration</h4>-->
+                    <p> Umbul Ponggok mengalami perkembangan yang pesat. Renovasi besar-besaran dilakukan, fasilitas wisata ditingkatkan, 
+                        dan spot foto bawah air mulai menjadi daya tarik utama sehingga jumlah wisatawan meningkat signifikan.</p>
                 </div>
+                <div class="timeline-dot"></div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content glass">
+                    <div class="timeline-year">2022</div>
+                    <!--<h4>Quantum Leap</h4>-->
+                    <p>Setelah terdampak pandemi COVID-19, Umbul Ponggok kembali beroperasi dan mulai mengalami peningkatan jumlah pengunjung. 
+                        Pengelola terus menambah inovasi dan memperbaiki pelayanan agar wisatawan kembali berkunjung.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content glass">
+                    <div class="timeline-year">2026</div>
+                    <!--<h4>Neural Singularity</h4>-->
+                    <p>Umbul Ponggok tetap menjadi salah satu destinasi wisata air unggulan di Kabupaten Klaten.
+                         Pengelola terus menjaga kebersihan mata air, meningkatkan fasilitas, serta mengembangkan pelayanan agar tetap menarik minat wisatawan dan mendukung perekonomian masyarakat sekitar.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Contact -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info glass">
+                <h3>Hubungi Kami</h3>
+                <p>Kami siap membantu Anda merencanakan kunjungan ke Umbul Ponggok. 
+                    Jika Anda memiliki pertanyaan mengenai harga tiket, jam operasional, reservasi, fasilitas, atau kerja sama, silakan hubungi kami melalui formulir di samping. 
+                    Tim kami akan memberikan informasi yang Anda butuhkan secepat mungkin agar pengalaman wisata Anda semakin nyaman dan menyenangkan..</p>
+                <!--<p>Connect through the dimensional gateway and let us initialize your journey into the digital consciousness matrix.</p>-->
                 
-                <div class="contact-form-section">
-                    <form class="contact-form" onsubmit="handleSubmit(event)">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
+                <div class="social-links">
+                    <a href="#" class="glass">📡</a>
+                    <a href="#" class="glass">🌐</a>
+                    <a href="https://wa.me/6287815462868" class="glass">💬</a>
+                    <a href="mailto:ghzyramadhan@gmail.com" class="glass">📨</a>
                 </div>
+            </div>
+            
+            <div class="contact-form glass">
+                <div class="form-group">
+                    <input type="text" placeholder="Nama" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Tulis pesan Anda.." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="footer-content">
-            <div class="footer-copyright">
-                © 2025 3D Coverflow. All rights reserved. | Designed by <a href="https://templatemo.com" target="_blank" rel="noopener noreferrer">TemplateMo</a>
-            </div>
             <div class="footer-links">
-                <a href="#privacy" onclick="event.preventDefault(); alert('Privacy Policy page would go here');">Privacy Policy</a>
-                <a href="#terms" onclick="event.preventDefault(); alert('Terms of Service page would go here');">Terms of Service</a>
+                <a href="#features">Profil</a>
+                <a href="#showcase">Fasilitas</a>
+                <a href="#timeline">Sejarah</a>
+                <a href="https://www.instagram.com/umbul_ponggok?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Documentation</a>
+                <!-- Add external links -->
+    			<a href="https://github.com/ghzyramadhan-glitch" target="_blank" rel="noopener">GitHub</a>
             </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 Kelompok 2 UAS Pemograman Web1 | Ghazy | Raffi |</p>
+            </div>
+            <!--<div class="footer-design">
+                Design: <a href="https://templatemo.com" target="_blank" rel="nofollow noopener">TemplateMo</a> | 
+                Enhanced by Neural AI Systems | 
+                <a href="#">Quantum Framework</a>
+            </div>-->
         </div>
     </footer>
-
-    <!-- Scroll to top button -->
-    <div class="scroll-to-top" id="scrollToTop">
-        <span>↑</span>
-    </div>
-
-<script src="templatemo-3d-coverflow-scripts.js"></script>
-
+<script src="templatemo-neural-scripts.js"></script>
 </body>
 </html>
